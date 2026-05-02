@@ -1,4 +1,4 @@
-# Hecke--Landau Equidistribution
+# Hecke-Landau Equidistribution
 
 A proof that for any unitary Hecke character $\chi$ of infinite order over a number field $K$, the angles $\theta_\chi(\mathfrak{p}) \in [0, 2\pi)$ defined by $\chi(\mathfrak{p}) = e^{i\theta_\chi(\mathfrak{p})}$ are equidistributed on the unit circle with respect to the uniform measure.
 
