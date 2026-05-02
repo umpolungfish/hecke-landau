@@ -4,7 +4,7 @@ A proof that for any unitary Hecke character $\chi$ of infinite order over a num
 
 $\lim_{x \to \infty} \frac{1}{\pi_K(x)} \sum_{N(\mathfrak{p}) \leq x} f(\chi(\mathfrak{p})) = \int_0^{2\pi} f(e^{i\theta}) \, \frac{d\theta}{2\pi}$
 
-for every continuous $f: S^1 \to \mathbb{C}$, where $\pi_K(x) = \#\{\mathfrak{p} \subset \mathcal{O}_K : N(\mathfrak{p}) \leq x\}$.
+for every continuous $f: S^1 \to \mathbb{C}$, where $\pi_K(x)$ is the number of prime ideals of $\mathcal{O}_K$ with norm at most $x$.
 
 ---
 
