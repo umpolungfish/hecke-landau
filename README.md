@@ -30,12 +30,3 @@ The result is a theorem, not a conjecture, though the name is nonstandard. It fo
 | `HECKE_LANDAU_PROOF.pdf` | Compiled PDF |
 
 ---
-
-## Note on GPT's Review
-
-A GPT-4o review of an earlier draft raised objections claiming the zero-free region is "not available in the required generality" and that the result is an open conjecture. Both objections are incorrect for the case of a **fixed** character. The confusion is between:
-
-- equidistribution for a fixed infinite-order Hecke character (this paper — classical, $c_\psi$ depends on $\psi$ but is fixed throughout)
-- uniformity of error bounds over *families* of characters as the conductor grows (genuinely hard, related to Siegel zeros and effective Chebotarev)
-
-The proof addresses the former. For a fixed $\psi = \chi^k$, every analytic input invoked is classical.
