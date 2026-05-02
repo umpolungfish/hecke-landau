@@ -1,0 +1,126 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["ae56ab0fcca1747a.olean"],
+  "m": false,
+  "i": "0444f3095486233e.ilean",
+  "c": "580af1a4c9256d17.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/mrnob0dy666/hecke-landau/.lake/packages/Cli/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/batteries/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/Qq/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/aesop/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/importGraph/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/plausible/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/packages/mathlib/.lake/build/lib/lean:/home/mrnob0dy666/hecke-landau/.lake/build/lib/lean /home/mrnob0dy666/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lean /home/mrnob0dy666/hecke-landau/HeckeLandau.lean -o /home/mrnob0dy666/hecke-landau/.lake/build/lib/lean/HeckeLandau.olean -i /home/mrnob0dy666/hecke-landau/.lake/build/lib/lean/HeckeLandau.ilean -c /home/mrnob0dy666/hecke-landau/.lake/build/ir/HeckeLandau.c --setup /home/mrnob0dy666/hecke-landau/.lake/build/ir/HeckeLandau.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "HeckeLandau.lean:51:29: unused variable `𝔭`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:54:23: unused variable `x`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:85:18: declaration uses `sorry`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:101:26: unused variable `χ`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:101:44: unused variable `s`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:119:35: unused variable `χ`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:119:53: unused variable `s`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:139:6: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:143:6: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:148:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:159:0: automatically included section variable(s) unused in theorem `nonvanishing_on_one_line`:\n  [NumberField K]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NumberField K] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:172:38: unused variable `ψ`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:172:56: unused variable `x`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:179:36: unused variable `ψ`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:179:54: unused variable `x`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:182:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:187:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:192:27: unused variable `f`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:233:33: unused variable `ψ`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:262:34: unused variable `hT`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:266:27: unused variable `ψ`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:266:45: unused variable `x`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:266:49: unused variable `c₀`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:266:58: unused variable `hT`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "HeckeLandau.lean:288:36: unused variable `hx`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:290:6: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:293:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:302:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:312:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:327:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:342:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:357:6: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:370:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:388:6: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:397:8: declaration uses `sorry`",
+   "level": "warning"},
+  {"message": "HeckeLandau.lean:412:8: declaration uses `sorry`",
+   "level": "warning"}],
+ "inputs":
+ [["HeckeLandau:deps",
+   [["deps",
+     [["«hecke-landau»/HeckeLandau:extraDep",
+       [["@«hecke-landau»:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib transitive imports (legacy)", "fe84bd37566b592f"],
+        ["Mathlib:importAllArts", "d557e05c267e6f6c"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.30.0, commit 3dc1a088b6d2d8eafe25a7cd7ec7b58d731bd7cc",
+   "2c8d2623007dfc36"],
+  ["/home/mrnob0dy666/hecke-landau/HeckeLandau.lean", "8c9d1d788ce6ae9d"],
+  ["options",
+   [["-DrelaxedAutoImplicit=false", "74a2b5546b55be80"],
+    ["-Dpp.unicode.fun=true", "9b94070140457fab"]]],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: HeckeLandau", "e0973a27058c97c0"],
+  ["Package.id?: (some hecke-landau)", "511908b8421cc251"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "49e6f8b869201922"}
