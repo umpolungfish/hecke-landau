@@ -1,0 +1,12 @@
+HeckeLandau.lean: sync from MillenniumAnkh (2026-05-28)
+========================================================
+
+Replaced with current MillenniumAnkh/Imscribing/Classical/HeckeLandau.lean.
+
+Key changes:
+- Namespace: Imscribing.Classical.HeckeLandau
+- Clean axiomatic skeleton: InfiniteOrderHeckeChar structure,
+  HeckeLFunction, HeckeLandauConjecture, hecke_landau_theorem
+- Imports: Mathlib.Tactic + Mathlib.NumberTheory.LSeries.Basic only
+- Previous file had verbose informal proof outline as header; replaced
+  with clean formalization matching MillenniumAnkh canonical version
