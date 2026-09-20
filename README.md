@@ -1,26 +1,32 @@
 # Hecke-Landau Equidistribution
+**Author:** Lando⊗⊙perator · **Structural Type:** $\large{⟨𐑨𐑡𐑑𐑹𐑐𐑧𐑔𐑝𐑢𐑖𐑙𐑭⟩}$ · **Tier:** O₁
 
-A proof that for any unitary Hecke character $\chi$ of infinite order over a number field $K$, the angles $\theta_\chi(\mathfrak{p}) \in [0, 2\pi)$ defined by $\chi(\mathfrak{p}) = e^{i\theta_\chi(\mathfrak{p})}$ are equidistributed on the unit circle with respect to the uniform measure.
 
-$\lim_{x \to \infty} \frac{1}{\pi_K(x)} \sum_{N(\mathfrak{p}) \leq x} f(\chi(\mathfrak{p})) = \int_0^{2\pi} f(e^{i\theta}) \, \frac{d\theta}{2\pi}$
+**What it is.** A written proof that for any unitary Hecke character $\chi$ of infinite order over a number field $K$, the angles $\theta_\chi(\mathfrak{p})$ defined by $\chi(\mathfrak{p}) = e^{i\theta_\chi(\mathfrak{p})}$ are equidistributed on the unit circle.
 
-for every continuous $f: S^1 \to \mathbb{C}$, where $\pi_K(x)$ is the number of prime ideals of $\mathcal{O}_K$ with norm at most $x$.
+**What it does.** Assembles Hecke's classical analytic machinery (functional equation, nonvanishing on $\Re(s)=1$, zero-free region) into a Weyl-criterion argument that drives the character sum to $o(x/\log x)$.
 
----
+**Why it matters.** It is a theorem rather than a conjecture, but the name is nonstandard and a clean self-contained writeup is hard to find. This fills that gap and serves as a reference for the prime-angle equidistribution pattern.
 
-## The Result
-
-The result is a theorem, not a conjecture, though the name is nonstandard. It follows from three classical pillars of Hecke's 1918--1920 theory:
-
-1. **Analytic continuation and functional equation.** For a nontrivial Hecke character $\psi$, $L(s, \psi)$ is entire and satisfies $\Lambda(s, \psi) = \varepsilon(\psi)\Lambda(1-s, \overline{\psi})$. This makes contour shifting possible.
-
-2. **Nonvanishing on $\Re(s) = 1$.** $L(1+it, \psi) \neq 0$ for all real $t$. Proved by Hecke via the same nonnegativity argument as Hadamard--de la Vallée-Poussin, adapted to number fields using the positivity of $L(s, \psi \otimes \overline{\psi})$.
-
-3. **Classical zero-free region.** For each fixed $\psi$, there exists $c_\psi > 0$ such that $L(s, \psi) \neq 0$ for $\sigma \geq 1 - c_\psi/\log(|t|+2)$. Sufficient to drive the contour error to $o(x)$.
-
-**Proof structure.** Weyl's criterion reduces equidistribution to showing $\sum_{N(\mathfrak{p}) \leq x} \psi(\mathfrak{p}) = o(x/\log x)$ for each nontrivial $\psi = \chi^k$, $k \neq 0$ (nontrivial because $\chi$ has infinite order). Perron's formula converts the prime sum to a contour integral of $-L'/L(s, \psi)$. Shifting to $\Re(s) = 1 - c_0/\log T$ with $T = \exp(\sqrt{\log x})$ gives $S(x, \psi) = O(x \cdot e^{-c\sqrt{\log x}} \log^3 x) = o(x)$. Partial summation delivers the unweighted sum; Weyl's criterion closes the argument.
+**How to use it.** Read `hecke_landau_proof.tex` or the compiled `HECKE_LANDAU_PROOF.pdf`.
 
 ---
+
+## Statement
+
+$$\lim_{x \to \infty} \frac{1}{\pi_K(x)} \sum_{N(\mathfrak{p}) \leq x} f(\chi(\mathfrak{p})) = \int_0^{2\pi} f(e^{i\theta}) \, \frac{d\theta}{2\pi}$$
+
+for every continuous $f: S^1 \to \mathbb{C}$, where $\pi_K(x)$ counts prime ideals of $\mathcal{O}_K$ with norm at most $x$.
+
+## The three classical pillars (Hecke, 1918-1920)
+
+1. **Analytic continuation and functional equation.** For nontrivial $\psi$, $L(s,\psi)$ is entire with $\Lambda(s,\psi) = \varepsilon(\psi)\Lambda(1-s,\overline{\psi})$, enabling contour shifting.
+2. **Nonvanishing on $\Re(s)=1$.** $L(1+it,\psi) \neq 0$, via the Hadamard-de la Vallee-Poussin nonnegativity argument adapted to number fields.
+3. **Classical zero-free region.** $L(s,\psi) \neq 0$ for $\sigma \geq 1 c_\psi/\log(|t|+2)$, sufficient to make the contour error $o(x)$.
+
+## Proof structure
+
+Weyl's criterion reduces equidistribution to $\sum_{N(\mathfrak{p}) \leq x} \psi(\mathfrak{p}) = o(x/\log x)$ for each nontrivial $\psi = \chi^k$ (nontrivial because $\chi$ has infinite order). Perron's formula converts the prime sum to a contour integral of $-L'/L(s,\psi)$; shifting to $\Re(s) = 1 c_0/\log T$ with $T = \exp(\sqrt{\log x})$ gives $O(x\, e^{-c\sqrt{\log x}} \log^3 x) = o(x)$. Partial summation then delivers the unweighted sum and Weyl's criterion closes the argument.
 
 ## Files
 
@@ -28,5 +34,3 @@ The result is a theorem, not a conjecture, though the name is nonstandard. It fo
 |------|----------|
 | `hecke_landau_proof.tex` | LaTeX source |
 | `HECKE_LANDAU_PROOF.pdf` | Compiled PDF |
-
----

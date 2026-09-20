@@ -379,4 +379,4 @@ The Hecke–Landau conjecture, proven, now opens onto this harder terrain.
 
 ---
 
-*Structural type:* $\langle D_\infty;\ T_\bowtie;\ R_\leftrightarrow;\ P_{\pm};\ F_\hbar;\ K_\text{slow};\ G_\aleph;\ \Gamma_\text{seq};\ \Phi_c;\ H_2;\ n{:}m;\ \Omega_\mathbb{Z} \rangle$
+*Structural type:* $\langle D_\infty;\ T_\bowtie;\ R_\leftrightarrow;\ P_{\pm};\ F_\hbar;\ K_\text{slow};\ G_\aleph;\ \Gamma_\text{seq};\ \⊙;\ H_2;\ n{:}m;\ \Omega_\mathbb{Z} \rangle$

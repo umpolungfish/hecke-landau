@@ -1,3 +1,16 @@
+HECKE_LANDAU.tex: SNS_PRIME notation unification (pdflatex → LuaLaTeX, Shavian tuple)
+
+Preamble:
+  Replaced \usepackage[utf8]{inputenc}/fontenc/lmodern with fontspec + unicode-math.
+  \setmainfont{Latin Modern Roman}, \setmathfont{Latin Modern Math}.
+  Added \newfontfamily\shavfont{Everson Mono} + full Shavian block \newunicodechar redirects.
+
+Structural type tuple (line 580):
+  Old: ⟨D_∞; T_⊠; R_↔; P_±; F_ℏ; K_slow; G_ℵ; Γ_seq; ⊙; H_2; n:m; Ω_ℤ⟩
+  New: ⟨𐑼; 𐑥; 𐑾; 𐑬; 𐑐; 𐑧; 𐑲; 𐑠; ⊙; 𐑖; 𐑳; 𐑭⟩
+
+---
+
 HeckeLandau.lean: sync from MillenniumAnkh (2026-05-28)
 ========================================================
 
