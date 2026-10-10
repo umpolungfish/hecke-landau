@@ -10,7 +10,7 @@ relaxedAutoImplicit = false
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
-rev = "676b870c7dd6f238"
+rev = "v4.28.0"
 
 [[lean_lib]]
 name = "HeckeLandau"
